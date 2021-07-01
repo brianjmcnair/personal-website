@@ -23,6 +23,7 @@ article {
     width: 100%;
     height: auto;
     border-radius: 55%;
+    padding-top: 5%;
 }
 .about-pic {
     width: 100%;
@@ -65,6 +66,9 @@ article {
 #blog-feed {
     padding-left: 20%;
     padding-right: 20%;
+}
+.feed-timestamp {
+    color:	rgb(192, 192, 192);
 }
 @media only screen and (max-width: 900px) {
     body {
