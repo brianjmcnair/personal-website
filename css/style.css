@@ -5,9 +5,6 @@ body {
     padding-left: 20%;
     padding-right: 20%;
 }
-body.p {
-    color:#303030;
-}
 .page-title {
     text-align: center;
 }
@@ -21,6 +18,10 @@ body.p {
 article {
     padding-left: 10%;
     padding-right: 10%;
+    color:#3d3c3c;
+}
+#about-me-page {
+    color:#3d3c3c;
 }
 .intro-pic {
     width: 100%;
@@ -46,6 +47,7 @@ article {
 }
 #home-container {
     width: 100%;
+    color:#3d3c3c;
 }
 #home-container-left {
     float:left;
