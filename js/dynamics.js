@@ -11,6 +11,8 @@ for (let i = 0 ; i < nav.length; i++) {
 
 let github_tag = document.getElementById("github");
 let twitter_tag = document.getElementById("twitter");
+let strava_tag = document.getElementById("strava");
+let linkedin_tag = document.getElementById("linkedin");
 if (github_tag != null) {
     github_tag.addEventListener("mouseover", function( event ) {
         event.target.style.backgroundColor = "gainsboro";
@@ -25,6 +27,25 @@ if (twitter_tag != null) {
     }, false);
     
     twitter_tag.addEventListener("mouseout", function( event ) {
+        event.target.style.backgroundColor = "";
+      }, false);
+}
+if (strava_tag != null) {
+    strava_tag.addEventListener("mouseover", function( event ) {
+        event.target.style.backgroundColor = "gainsboro";
+    }, false);
+    
+    strava_tag.addEventListener("mouseout", function( event ) {
+        event.target.style.backgroundColor = "";
+      }, false);
+}
+
+if (linkedin_tag != null) {
+    linkedin_tag.addEventListener("mouseover", function( event ) {
+        event.target.style.backgroundColor = "gainsboro";
+    }, false);
+    
+    linkedin_tag.addEventListener("mouseout", function( event ) {
         event.target.style.backgroundColor = "";
       }, false);
 }

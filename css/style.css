@@ -1,4 +1,4 @@
-h1, h2, p, a {
+h1, h2, h3, p, a {
     font-family: 'Castoro', serif;
 }
 body {
@@ -20,6 +20,9 @@ article {
     padding-right: 10%;
     color:#3d3c3c;
 }
+.project-description {
+    color:	rgb(122, 119, 119);
+}
 #about-me-page {
     color:#3d3c3c;
 }
@@ -35,13 +38,21 @@ article {
     border-radius: 50%;
 }
 #profile-logo-space {
-    padding-left: 45%;
+    padding-left: 38%;
 }
 #github {
     width: 50px;
     height: auto;
 }
 #twitter {
+    width: 50px;
+    height: auto;
+}
+#strava {
+    width: 50px;
+    height: auto;
+}
+#linkedin {
     width: 50px;
     height: auto;
 }
@@ -71,6 +82,10 @@ article {
 #blog-feed {
     padding-left: 20%;
     padding-right: 20%;
+}
+.project-feed {
+    padding-left: 10%;
+    padding-right: 0%;
 }
 .feed-timestamp {
     color:	rgb(192, 192, 192);
