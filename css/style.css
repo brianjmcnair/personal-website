@@ -39,21 +39,22 @@ article {
 }
 #profile-logo-space {
     padding-left: 38%;
+    padding-right: 25%;
 }
 #github {
-    width: 8%;
+    width: 15%;
     height: auto;
 }
 #twitter {
-    width: 8%;
+    width: 15%;
     height: auto;
 }
 #strava {
-    width: 8%;
+    width: 15%;
     height: auto;
 }
 #linkedin {
-    width: 8%;
+    width: 15%;
     height: auto;
 }
 #home-container {
